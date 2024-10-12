@@ -54,6 +54,30 @@ export const newArrivalsData: Product[] = [
     },
     rating: 4.5,
   },
+  {
+    id: 100,
+    title: "BIBA Women Calf Length Dress",
+    srcUrl: "/images/img100.png",
+    gallery: ["/images/img100.png"],
+    price: 11000,
+    discount: {
+      amount: 10000,
+      percentage: 10,
+    },
+    rating: 4.9,
+  },
+  {
+    id: 101,
+    title: "TURMS Anti Stain Polo Shirt",
+    srcUrl: "/images/img101.png",
+    gallery: ["/images/img101.png"],
+    price: 2000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.1,
+  }
 ];
 
 export const topSellingData: Product[] = [
@@ -105,6 +129,30 @@ export const topSellingData: Product[] = [
     },
     rating: 4.5,
   },
+  {
+    id: 103,
+    title: "Calvin Klein Men's Solid Classic Fit T-Shirt",
+    srcUrl: "/images/img103.png",
+    gallery: ["/images/img103.png"],
+    price: 1500,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 5.0,
+  },
+  {
+    id: 104,
+    title: "Calvin Klein Men's Solid Slim Fit T-Shirt",
+    srcUrl: "/images/img104.png",
+    gallery: ["/images/img104.png"],
+    price: 2000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.0,
+  }
 ];
 
 export const relatedProductData: Product[] = [
@@ -210,7 +258,233 @@ export const gymSellingData: Product[] = [
   },
 ];
 
+export const casual: Product[] = [
+  {
+    id: 105,
+    title: "Bamboo Cay Mens Short Sleeve Hurricane",
+    srcUrl: "/images/img105.png",
+    gallery: ["/images/img105.png"],
+    price: 5000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.7,
+  },
+  {
+    id: 106,
+    title: "ZAFONI Tropical Shirt 1pc Yellow Men",
+    srcUrl: "/images/img106.png",
+    gallery: ["/images/img106.png"],
+    price: 4000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.8,
+  },
+  {
+    id: 107,
+    title: "ALVISH Casual Hawaiian Shirt for Men",
+    srcUrl: "/images/img107.png",
+    gallery: ["/images/img107.png"],
+    price: 6000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.8,
+  },
+  {
+    id: 108,
+    title: "Lymio Men's Striped Regular Fit Shirt",
+    srcUrl: "/images/img108.png",
+    gallery: ["/images/img108.png"],
+    price: 900,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.6,
+  },
+  {
+    id: 109,
+    title: "COOFANDY Mens Button Down Beach Shirt",
+    srcUrl: "/images/img109.png",
+    gallery: ["/images/img109.png"],
+    price: 8000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.7,
+  },
+  {
+    id: 110,
+    title: "JMIERR Mens Quilted Shirt Jackets",
+    srcUrl: "/images/img110.png",
+    gallery: ["/images/img110.png"],
+    price: 9000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.9,
+  }
+ 
+];
 
+export const formal: Product[] = [
+  {
+    id: 111,
+    title: "Allen Solly Men's Slim Fit Shirt",
+    srcUrl: "/images/img111.png",
+    gallery: ["/images/img111.png"],
+    price: 2000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.2,
+  },
+  {
+    id: 112,
+    title: "Scott International Shirt for Men",
+    srcUrl: "/images/img112.png",
+    gallery: ["/images/img112.png"],
+    price: 9000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.2,
+  },
+  {
+    id: 113,
+    title: "Peter England Men's Regular Fit Shirt",
+    srcUrl: "/images/img113.png",
+    gallery: ["/images/img113.png"],
+    price: 3000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.4,
+  },
+  {
+    id: 114,
+    title: "Pinkmint Mens Long Sleeve Button Down Shirt",
+    srcUrl: "/images/img114.png",
+    gallery: ["/images/img114.png"],
+    price: 4900,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.1,
+  },
+  {
+    id: 115,
+    title: "Louis Philippe Men Regular Fit ",
+    srcUrl: "/images/img115.png",
+    gallery: ["/images/img115.png"],
+    price: 7600,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.2,
+  },
+  {
+    id: 116,
+    title: "Majestic Man Slim Fit Satin Cotton Formal Shirt",
+    srcUrl: "/images/img116.png",
+    gallery: ["/images/img116.png"],
+    price: 12000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.1,
+  }
+ 
+];
+
+export const party: Product[] = [
+  {
+    id: 117,
+    title: "GRECIILOOKS Shirt for Men | Mens Casual Shirt",
+    srcUrl: "/images/img117.png",
+    gallery: ["/images/img117.png"],
+    price: 2400,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.1,
+  },
+  {
+    id: 118,
+    title: "CALVIN PARTY WEAR",
+    srcUrl: "/images/img118.png",
+    gallery: ["/images/img118.png"],
+    price: 4000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.8,
+  },
+  {
+    id: 119,
+    title: "ZEROYAA Mens Hipster Gold Rose Printed Slim Fit ",
+    srcUrl: "/images/img119.png",
+    gallery: ["/images/img119.png"],
+    price: 3600,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.2,
+  },
+  {
+    id: 120,
+    title: "COOFANDY Women's Casual Pullover Sweatshirt Double",
+    srcUrl: "/images/img120.png",
+    gallery: ["/images/img120.png"],
+    price: 9000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.6,
+  },
+  {
+    id: 121,
+    title: "Amzdest 90s Clothing for women,Unisex Hip Hop outfit for party",
+    srcUrl: "/images/img121.png",
+    gallery: ["/images/img121.png"],
+    price: 8000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.7,
+  },
+  {
+    id: 122,
+    title: "shop4ever Pirate Skull & Crossbones T-Shirt",
+    srcUrl: "/images/img122.png",
+    gallery: ["/images/img122.png"],
+    price: 6000,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.9,
+  }
+ 
+];
 
 export const reviewsData: Review[] = [
   {
